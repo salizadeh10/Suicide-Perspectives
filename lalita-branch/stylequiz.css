@@ -1,0 +1,115 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+
+	h1 {
+		color: whitesmoke;
+		font-family: verdana;
+		font-size: 150%;
+		display: inline;
+	  }
+	  h3 {
+		color: whitesmoke;
+		font-family: verdana;
+		font-size: 200%;
+		display: inline;
+	  }
+	  h6 {
+		color: whitesmoke;
+		font-family: verdana;
+		font-size: 50%;
+	  }
+#quiz {
+	margin-left: 5px;
+	background: #666f77;
+	padding: 10px 20px 10px 20px;
+	width: 600px;
+	border-radius: 20px;
+
+}
+
+input {
+	margin-bottom: 20px;
+	display: block;
+}
+/* option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+	padding: 0px 2px 1px;
+	background-color: #ffffff;
+} */
+select{
+    
+    background: rgba(0,0,0,0.3);
+    color:#FFF;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+option:not(:checked) { 
+    background-color: white; 
+	color:#000;
+	text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+#button {
+	background:#96cccc;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: .5s;
+	margin-top: 15px;
+}
+
+
+
+#button:hover {
+	background: #ef8376;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+
+}
+
+#after_submit {
+	visibility: hidden;
+	background: #666f77;
+	padding: 10px 20px 10px 20px;
+	width: 600px;
+	border-radius: 20px;
+	margin-top:30px;
+	font-size: 30px;
+	font-weight: bold;
+}
+#image{
+	background: url('images/result.jpg');
+	opacity: 1.0;
+}
+#quoteDisplay{
+	background:#666f77;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	height:400px;
+	border-radius: 20px;
+	margin-top: 5px;
+	font-size: 20px;
+
+}
+
+#picture {
+	width: 300px;
+	height: 200px;
+	
+}
+
+  /* set map, body, and html to 100% of the screen size */
+
+#mapgeo
+{
+	width: 600px;
+	height: 300px;
+	float: left;
+}
