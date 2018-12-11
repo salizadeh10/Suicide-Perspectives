@@ -8,9 +8,9 @@ import pymongo
 app = Flask(__name__)
 
 # Establish connection to remote MongoDB
-conn = 'mongodb://simon:Letmein12!@ds225624.mlab.com:25624/heroku_jt314qxs'
+conn = 'mongodb://simon:Letmein12!@ds131814.mlab.com:31814/heroku_71l1lzgl'
 client = pymongo.MongoClient(conn)
-db = client.heroku_jt314qxs
+db = client.heroku_71l1lzgl
 
 @app.route("/")
 def index():
