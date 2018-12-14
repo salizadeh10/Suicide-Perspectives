@@ -39,13 +39,13 @@ function buildBars(factors, male_death_count, female_death_count) {
           type:"bar",
           orientation: 'h',
           name:"Male",
-          y: factors,
-          x: male_death_count  ,
+          x: factors,
+          y: male_death_count  ,
           marker: {
             color : 'blue',
             line :{
                 color : 'dark blue',
-                width : 1.5
+                width : 1
                 }      
            }     
            }    
@@ -54,14 +54,13 @@ function buildBars(factors, male_death_count, female_death_count) {
             type:"bar",
             orientation: 'h',
             name:"Female",
-            y: factors,
-            x: female_death_count ,
+            x: factors,
+            y: female_death_count ,
             marker: {
                 color : 'pink',
                 line :{
                     color : 'black',
-                    width : 1.5
-                    }      
+                    width : 1                    }      
                }         
             }         
                            
